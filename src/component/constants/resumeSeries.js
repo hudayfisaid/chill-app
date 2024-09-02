@@ -1,0 +1,86 @@
+// Constants
+const thumbnailPath = "/img/thumbnail/MelanjutkanTontonSeries/";
+const commonCategories = ["Misteri", "Kriminal", "Fantasi"];
+const commonStyle = "box";
+const totalEpisodes = 14;
+
+const resumeSeries = [
+    {
+        style: commonStyle,
+        type: "series",
+        title: "Alice in Borderland",
+        image: `${thumbnailPath}tn1.png`,
+        rating: "4.5/5",
+        eps: "Episode 1",
+        duration: 153,
+        progress: "40%",
+        totaleps: totalEpisodes,
+        category: commonCategories,
+        label: "new Episode",
+        neweps: false,
+        top10: true,
+    },
+    {
+        style: commonStyle,
+        type: "movie",
+        title: "My Perfect Stranger",
+        image: `${thumbnailPath}tn2.png`,
+        rating: "4.6/5",
+        eps: "Episode 2",
+        duration: 254,
+        progress: "16%",
+        totaleps: totalEpisodes,
+        category: commonCategories,
+        label: "new Episode",
+        neweps: true,
+        top10: false,
+    },
+    {
+        style: commonStyle,
+        type: "movie",
+        title: "All of Us Are Dead",
+        image: `${thumbnailPath}tn3.png`,
+        rating: "4.2/5",
+        eps: "Episode 4",
+        duration: 44,
+        progress: "56%",
+        totaleps: totalEpisodes,
+        category: commonCategories,
+        label: "new Episode",
+        neweps: false,
+        top10: false,
+    },
+    {
+        style: commonStyle,
+        type: "series",
+        title: "Ted Lasso",
+        image: `${thumbnailPath}tn4.png`,
+        rating: "4.4/5",
+        eps: "Episode 3",
+        duration: 54,
+        progress: "18%",
+        totaleps: totalEpisodes,
+        category: commonCategories,
+        label: "new Episode",
+        neweps: true,
+        top10: false,
+    },
+    {
+        style: commonStyle,
+        type: "series",
+        title: "Ted Lasso",
+        image: `${thumbnailPath}tn4.png`,
+        rating: "4.4/5",
+        eps: "Episode 3",
+        duration: 54,
+        progress: "18%",
+        totaleps: totalEpisodes,
+        category: commonCategories,
+        label: "new Episode",
+        neweps: false,
+        top10: true,
+    },
+];
+
+export default resumeSeries;
+

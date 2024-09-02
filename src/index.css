@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ 
+.group:hover .group-hover\:block {
+    display: block;
+  }
+ 
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;  
+}
+.scrollbar-hide {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+}
+ 
+/* .swiper-container:after {
+  overflow: visible;
+} */
+.swiper { position: unset !important;   overflow: unset !important; }
+.sliderContainer {   position: relative;   z-index: 2; height: 25rem; }
+.swiper-button-prev, .swiper-button-next {
+  background-color: #212121;
+  border-radius: 50% !important;
+  width: 30px !important;
+  height: 30px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #fff;
+  top: 50%;
+ 
+  position: absolute;  
+  
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+.swiper-button-prev svg, .swiper-button-next svg {
+ width: 50% !important;
+ height: 50% !important;
+}
+
+.swiper-button-prev {
+  left: -20px !important;
+}
+
+.swiper-button-next {
+  right: -20px !important;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  background-color: #333;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  content: ''; 
+  font-size: 0px !important; 
+  display: none !important; 
+}
+
+.swiper-container {
+  padding-left: 50px; 
+  padding-right: 50px; 
+}
+.swiper-slides{
+  overflow: hidden;
+}
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 20px;
+}
+
+
+
+.bg-vid { position: fixed; width: 100%; height: 100%; object-fit: cover; z-index: 0; }
+
+
+.css-bdhsul-MuiTypography-root-MuiDialogTitle-root, .css-ohyacs {
+  background-color: #181A1C;
+  color: white;
+}
+ 
+.css-knqc4i-MuiDialogActions-root, .css-1vskg8q {
+  justify-content: center !important;
+  padding: 18px !important;
+}
